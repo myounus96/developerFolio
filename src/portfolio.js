@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Muhammad Younus",
   title: "Hi all, I'm Younus",
-  subTitle: emoji("A Software Developer 🚀 having an experience of building backend applications with Python / Flask / Django and some other cool libraries and frameworks."),
+  subTitle: emoji("A Software Developer 🚀 having experience of building Machine Learning Models and Backend applications with Python / scikit-learn / PyTorch / Tensorflow / Keras / Flask / Django and some other cool libraries and frameworks."),
   resumeLink: "https://docs.google.com/document/d/1ahcEv8CZqSz8sPYyDzuttvLyzCjS9sLPdGhGjlpheyM/view?usp=sharing"
 };
 
@@ -40,6 +40,14 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "django",
+      fontAwesomeClassname: "devicon-django-plain-wordmark colored"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
@@ -50,6 +58,18 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "ubuntu",
+      fontAwesomeClassname: "fab fa-ubuntu"
+    },
+    {
+      skillName: "mysql",
+      fontAwesomeClassname: "devicon-mysql-plain-wordmark colored"
+    },
+    {
+      skillName: "mongodb",
+      fontAwesomeClassname: "devicon-mongodb-plain-wordmark colored"
     },
     {
       skillName: "docker",
@@ -65,6 +85,10 @@ const techStack = {
   experience: [
     {
       Stack: "Machine Learning",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Deep Learning(Computer Vision and NLP)",
       progressPercentage: "70%"
     },
     {
@@ -84,7 +108,36 @@ const workExperiences = {
       role: "Software Engineer",  
       company: "Folio3",
       companylogo: require("./assets/images/folio3Logo.png"),
-      date: "June 2018 – Present"
+      date: "Feb 2019 – Present",
+      descBullets: [
+        "Work as a full stack developer on a web app build using MEAN stack.",
+        "Developed a custom object detection solution using Python and YoloV3.",
+        "Developed an android app which predicting tags related to images using NLP and CV techniques with deep learning",
+      ]
+    },
+    {
+      role: "Python Developer - Remote",  
+      company: "Crescent Software Consultants",
+      // companylogo: require("./assets/images/None.png"),
+      date: "Nov 2018 – Jan 2019",
+      desc: "Developed the whole backend of an e-commerce system using Flask, MySQL and MongoDB."
+    },
+    {
+      role: "Web Developer",  
+      company: "Gerrys Information Technology",
+      companylogo: require("./assets/images/gerrysITLogo.png"),
+      date: "Sep 2017 – Mar 2018",
+      descBullets: [
+        "Developed and customized ERP apps using Odoo.",
+        "ASP web pages apps customization.",
+      ]
+    },
+    {
+      role: "Web Developer",  
+      company: "iTech Resources",
+      companylogo: require("./assets/images/itechResourcesLogo.png"),
+      date: "Oct 2016 – Jan 2017",
+      desc: "Developed and customized ERP apps using Odoo."
     }
   ]
 };
@@ -112,6 +165,10 @@ const bigProjects = {
     {
       image: require("./assets/images/voicevoiceLogo.png"),
       link: "https://voicevoice.com/"
+    },
+    {
+      image: require("./assets/images/agriBeefLogo.jpg"),
+      link: "https://www.agribeef.com/"
     }
   ]
 };
