@@ -31,8 +31,9 @@ const skillsSection = {
   title: "What i do",
   subTitle: "BACKEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop Machine Learning Models!"),
-    emoji("⚡ Backend Development mostly with Python!")
+    emoji("⚡ Develop Machine Learning and Deep Learning Models!"),
+    emoji("⚡ Backend Development mostly with Python!"),
+    emoji("⚡ Web Scraping with Python!")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -92,7 +93,19 @@ const techStack = {
       progressPercentage: "70%"
     },
     {
-      Stack: "Backend",
+      Stack: "Data Analysis",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Backend Development",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Building Serverless REST APIs",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Web Scraping",
       progressPercentage: "90%"
     }
   ]
